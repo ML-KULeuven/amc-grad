@@ -2,7 +2,7 @@
 
 ### Installation
 
-The install, first make sure to have a working Python and Rust installed. Next, you can install `kompyle` using
+First, make sure you have [Python](https://www.python.org/) and [Rust](https://rustup.rs/) installed. Next, you can install `kompyle` using
 
 ```bash
 pip install .

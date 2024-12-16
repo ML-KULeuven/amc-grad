@@ -1,0 +1,20 @@
+[package]
+name = "kompyle"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "kompyle"
+crate-type = ["cdylib"]
+
+[dependencies]
+tempfile = "3.10.1"
+numpy = "0.18.0"
+num-traits = "0.2.19"
+
+[dependencies.pyo3]
+version = "0.18.3"
+features = ["abi3-py38", "extension-module"]
+
+[profile.release]
+debug = true

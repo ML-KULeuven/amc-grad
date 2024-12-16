@@ -1,0 +1,11 @@
+debug/
+target/
+__pycache__
+*.so
+
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+.idea/
+.DS_Store

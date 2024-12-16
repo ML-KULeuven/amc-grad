@@ -91,6 +91,6 @@ def get_weights(nb_vars: int):
 if __name__ == "__main__":
     nb_repeats = 12
     bench_wmc_grad(nb_repeats)
-    # bench_bool_grad(nb_repeats)
-    # bench_log_grad(nb_repeats)
-    # bench_fuzzy_grad(nb_repeats)
+    bench_bool_grad(nb_repeats)
+    bench_log_grad(nb_repeats)
+    bench_fuzzy_grad(nb_repeats)
